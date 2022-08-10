@@ -91,6 +91,7 @@ input{
 textarea:focus, input:focus {
     color: #FFF;
     font-weight: bold;
+    background-color: black;
 }
 
 input, select, textarea{
