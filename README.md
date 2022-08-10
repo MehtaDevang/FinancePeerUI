@@ -7,3 +7,7 @@ The UI is build using Angular.
 - install the dependencies : npm install
 - update the environment base url to point to the correct backend server. The path of the environment file is : /src/environments/environment.tx
 - run the server: ng serve
+
+username - test
+password - test123
+
