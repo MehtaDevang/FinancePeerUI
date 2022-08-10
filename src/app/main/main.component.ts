@@ -29,9 +29,13 @@ export class MainComponent implements OnInit {
     this.service.validateJson(this.file, username, this.filename).subscribe(data => {
       if(data.hasOwnProperty("error")){
         console.log("error block");
+        // this.error = data["error"]
+        // const err = data["error"] as string;
+        alert(data['error'] as string);
       }
       else{
         console.log("success block");
+        alert(data["message"]);
       }
     });
   }
