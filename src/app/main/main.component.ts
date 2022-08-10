@@ -40,6 +40,10 @@ export class MainComponent implements OnInit {
     });
   }
 
+  go(){
+    this.router.navigate(["display"]);
+  }
+
   onFileSelected(event:any) {  
   
     const file:File = event.target.files[0];  
