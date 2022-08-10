@@ -40,3 +40,5 @@ username - test
 password - test123
 
 ![Login](./login.jpg)
+![Validation](./main.jpg)
+![Files](./files.jpg)
